@@ -7,8 +7,8 @@
         <p class="text-muted">Administra programas, cursos y competencias fácilmente</p>
 
         <div class="mt-4">
-            <a href="/cursos" class="btn btn-outline-dark px-4">
-                <i class="bi bi-book"></i> Cursos
+            <a href="{{ url('/curso')}}" wire:navigate class="btn btn-outline-dark px-4">
+                <i class="bi bi-book" ></i> Cursos
             </a>
         </div>
     </div>
